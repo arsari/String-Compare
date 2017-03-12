@@ -22,7 +22,7 @@ function strCompare(str1, str2) {
 // input loop
 while (true) {
     // script description and user input prompt
-    console.log('\n====================================='.red + 'v1.0.170309'.yellow);
+    console.log('\n====================================='.red + 'v1.1.170311'.yellow);
     console.log('This JS script will compare two strings to\ndetermine if both are equal in length, letters,\nand world...'.cyan + '\n' + '(For exit, press Enter in any of the inputs.)'.gray);
     console.log('------------------------------------------------'.blue);
     var userStr1 = prompt('Enter a First String value: '.italic.yellow);
@@ -46,7 +46,7 @@ while (true) {
             console.log(' String(1) and String(2) is the same string. '.white.bgBlue + '\n');
             return;
         } else if (compareResult) {
-            console.log(' String(1) and String(2) are equal in lenght and containg the same letters. '.white.bgGreen + '\n');
+            console.log(' String(1) and String(2) are equal in length and containg the same letters. '.white.bgGreen + '\n');
             return;
         } else {
             console.log(' String(1) and String(2) are different strings. '.red.bgYellow + '\n');
