@@ -28,7 +28,7 @@ def strCompare(str1, str2):
 while True:
     # script description and user input prompt
     print(Fore.RED + '\n=====================================' + Fore.YELLOW + 'v1.1.170312' + Fore.RESET)
-    print(Fore.CYAN + 'This JS script will compare two strings to\ndetermine if both are equal in length, letters,\nand world...' + Style.DIM + Fore.WHITE + '\n(For exit, press Enter in any of the inputs.)' + Fore.RESET + Style.RESET_ALL)
+    print(Fore.CYAN + 'This Python script will compare two strings to\ndetermine if both are equal in length, letters,\nand word...' + Style.DIM + Fore.WHITE + '\n(For exit, press Enter in any of the inputs.)' + Fore.RESET + Style.RESET_ALL)
     print(Fore.BLUE + '------------------------------------------------' + Fore.RESET)
     try:
         userStr1 = raw_input(Fore.YELLOW + 'Enter a First String value: ' + Fore.RESET)
